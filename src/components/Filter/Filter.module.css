@@ -1,0 +1,22 @@
+.Filter {
+  margin-bottom: 20px;
+  border: 1px solid#000000;
+}
+.Filter__field {
+  width: 200px;
+  margin-top: 10px;
+}
+.Filter__label {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+.Filter__input {
+  margin-top: 5px;
+  border: 1px solid lightslategrey;
+}
+
+.Filter__input:focus {
+  box-shadow: 0 0 2px 2px #4794fd;
+  outline: none;
+}

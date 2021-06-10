@@ -1,0 +1,35 @@
+.ContactsForm {
+  margin-bottom: 20px;
+  border: 1px solid#000000;
+}
+.ContactsForm__field {
+  width: 200px;
+  padding: 10px;
+}
+.ContactsForm__label {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: bold;
+}
+.ContactsForm__input {
+  margin-top: 5px;
+  border: 1px solid lightslategrey;
+}
+
+.ContactsForm__input:focus {
+  box-shadow: 0 0 2px 2px #4794fd;
+  outline: none;
+}
+
+.ContactsForm__button {
+  text-transform: capitalize;
+  border-radius: 5px;
+  border: 1px solid lightslategray;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.ContactsForm__button:active {
+  background-color: #4794fd;
+}

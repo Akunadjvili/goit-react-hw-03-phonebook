@@ -1,0 +1,24 @@
+.ContactsList {
+  margin-top: 10px;
+}
+
+.ContactsList__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ContactsList__item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.ContactsList__button {
+  text-transform: capitalize;
+  border-radius: 5px;
+  border: 1px solid lightslategray;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.ContactsList__button:active {
+  background-color: #4794fd;
+}
