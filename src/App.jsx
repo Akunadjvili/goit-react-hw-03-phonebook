@@ -56,7 +56,7 @@ class App extends Component {
   };
 
   componentDidMount() {
-    const data = window.localStorage.getItem(this.KEY) || [];
+    const data = window.localStorage.getItem(this.KEY) || '[]';
     const contacts = JSON.parse(data);
     this.setState({
       contacts,
